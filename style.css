@@ -12,9 +12,27 @@ body{
     font-variation-settings:"wdth" 100;
 }
 
+/* shared design */
+.section-title{
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+
+}
+
 .orange{
     color: #FD6E0A;
 }
+
+/* shared design */
+
 
 nav{
     display: flex;
@@ -58,11 +76,13 @@ nav li {
     padding: 15px 35px;
     color:#FD6E0A;
     border: 2px solid #FD6E0A;
+    cursor: pointer;
 
 }
 .btn-contact:hover{
     background: #FD6E0A;
     color: white;
+    transition: all 0.5s
 }
 
 .header{
@@ -102,3 +122,18 @@ nav li {
 .banner-content{
     max-width: 500px;
 }
+
+
+
+
+/* main section start */
+
+.about{
+    padding: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* main section end */
