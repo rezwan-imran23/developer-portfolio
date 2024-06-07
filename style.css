@@ -20,6 +20,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -49,6 +50,55 @@ nav li {
     color: white;
 }
 
+.btn-contact{
+    border-radius: 5px;
+    background-color: #FFF8F3;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    color:#FD6E0A;
+    border: 2px solid #FD6E0A;
+
+}
+.btn-contact:hover{
+    background: #FD6E0A;
+    color: white;
+}
+
 .header{
     background-color: #FFF8F3;
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner{
+    padding: 30px 30px 0px 150px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .profile-pic {
+
+    width: 500px;
+}
+
+.banner-greeting{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+.banner-description{
+
+}
+.banner-content{
+    max-width: 500px;
 }
