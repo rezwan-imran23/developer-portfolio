@@ -88,9 +88,15 @@ nav li {
 .header{
     background-color: #FFF8F3;
     background-image: url(/images/header_bg.png);
+    /* background-image: url(/images/developer.png); */
     background-repeat: no-repeat;
     background-position: bottom right;
 }
+/* .header{
+    background-image: url(/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+} */
 
 .banner{
     padding: 30px 30px 0px 150px ;
@@ -124,9 +130,12 @@ nav li {
 }
 
 
-
-
 /* main section start */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 .about{
     padding: 130px;
@@ -134,6 +143,15 @@ nav li {
     border-radius: 10px;
     margin-top: 130px;
     margin-bottom: 130px;
+}
+
+.about-info-container{
+    display:flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
 }
 
 /* main section end */
