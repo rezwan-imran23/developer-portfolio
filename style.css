@@ -217,3 +217,46 @@ main section{
 /* Resume section style end */
 
 /* main section end */
+
+/* footer-style */
+
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+
+#footer-title{
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+    text-align:left;
+}
+
+    
+#footer-description{
+    color: #757575;
+    text-align:left;
+    font-size: 18px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 25px;
+    color: #474747;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
+
+.social-link a{
+    margin-right:25px;
+}
